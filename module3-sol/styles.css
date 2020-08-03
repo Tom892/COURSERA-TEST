@@ -1,0 +1,156 @@
+
+
+		*{
+			box-sizing: border-box;
+		}
+		h1 {
+			text-align: center;
+			font-weight: bold;
+			font-style: italic;
+			margin-top: 100px;
+		}
+		span{
+			text-align: center;
+			font-weight: bold;
+			margin-right: 160px;
+			margin-left: 160px;
+			margin-bottom: 5px;
+		}
+		p{
+			border: 1px;
+			background-color: #919198;
+			width: 90%;
+			height: 150px;
+			margin-right: auto;
+			margin-left: auto;
+			font-family: initial;
+			color:black;
+			text-align: justify-all;
+			padding-left: 15px;
+			
+
+}
+		/** HEADER **/
+		#header-nav 
+		{
+		  background-color: #f6b319;
+		  border-radius: 0;
+		  border: 0;
+		  font-size: 3.5em;
+
+		}
+		.navbar-brand 
+		{
+  padding-top: 25px;
+  font-size: 2.5em;
+		}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+  
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+		#chicken-tile{
+			text-align: center;
+			font-weight: bold;
+			font-size:large;
+
+			
+			
+			margin-bottom: 10px;
+		}
+
+	
+
+		}
+		
+		
+
+		/**Desktops**/
+	@media (min-width: 992px)	
+	{
+		.navbar-collapse{
+			display: none; i
+		}
+		.nav-item{
+			display: none;
+		}
+		span{
+			text-align: center;
+			font-weight: bold;
+			margin-right: 200px;
+			margin-left: 200px;
+			margin-bottom: 5px;
+		}
+		}
+			
+			/**Tablets**/
+			
+	@media (min-width: 768px) and (max-width: 991px)	
+	{
+		span{
+			text-align: center;
+			font-weight: bold;
+			margin-right: 200px;
+			margin-left: 200px;
+			margin-bottom: 5px;
+		}
+		.navbar-collapse{
+			display: none; 
+		}
+		.nav-item{
+			display: none;
+		}
+
+	/*MOBILE VIEW**/
+			
+	@media (max-width: 767px)	
+	{
+		 	span{
+			text-align: center;
+			font-weight: bold;
+			margin-right: 700px;
+			margin-left: 700px;
+			margin-bottom: 5px;
+		}
+
+			  /* Header */
+			  .navbar-brand {
+			    padding-top: 10px;
+			    height: 80px;
+			  }
+			  .navbar-brand h1 { /* Restaurant name */
+			    padding-top: 10px;
+			    font-size: 5vw; /* 1vw = 1% of viewport width */
+			    text-align: center;
+			  }
+			  
+			  
+			  #collapsibleNavbar a { /* Collapsed nav menu text */
+			    font-size: 1.2em;
+			    text-align: center;
+			  }
+			  
+
+			
+  
+	}	
+
+
+
+	
